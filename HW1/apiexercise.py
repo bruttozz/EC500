@@ -91,5 +91,5 @@ if __name__ == '__main__':
     Image_Number = input("Please Enter How Many Pictures You Want to Display ")
     getimg(account)
     description()
-    os.system("ffmpeg -framerate 1 -pattern_type glob -i '*.jpg'  -c:v libx264 -r 30 -pix_fmt yuv420p output.mp4")
+    os.system("cat *.jpg | ffmpeg -f image2pipe -framerate .5 -i - -vf 'crop=in_w-1:in_h' -vcodec libx264 output.mp4")
     print("Finished!")
