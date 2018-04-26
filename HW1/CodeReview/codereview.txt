@@ -1,24 +1,35 @@
 Code Review for caoliyi
 by Hongtao Zhao
 
-1.Issues
-I downloaded caoliyi's repository for API exercise and tried to run her final version: final3.py
-There was an error with Google version API with messages as follow:
+Review of Data Path:
+	Data get stored within the same directory as the python file. 
 
-google.auth.exceptions.DefaultCredentialsError: Could not automatically determine credentials. 
-Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credential and re-run the application. 
-For more information, please see https://developers.google.com/accounts/docs/application-default-credentials.
+Review of API Calls:
+	API calls happen collectively in one function named "get_all_tweets".
 
-The reason is she didn't figure out the path of the json file which is for certification. 
-So I added 'os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/usr/local/lib/googlecloudsdk/cert.json"' in the line #87 
-and her code was able to run without error.
-Maybe this issue only happen in certain operating systems but if the certification file's path is defined in the code, 
-it will save my time to debug.
+Review of Code Conventions:
+	Conventions are generally good in terms of syntax. 
+  
+Review of Program Readability:
+	The workflow is very clear and the comments are enough for other people to understand.
+  If she can pack up different functions together in a 'def', it will be great.
+  I'm afraid I can't say her code is perfect because there are too many blank lines. For example, #81 to #85 are blank, 
+  which are unnecessary.
+  
+Issues:
+  I downloaded caoliyi's repository for API exercise and tried to run her final version: final3.py
+  There was an error with Google version API with messages as follow:
 
-2.The format of Code
-The workflow is very clear and the comments are enough for other people to understand.
-If she can pack up different functions together in a 'def', it will be great.
-I'm afraid I can't say her code is perfect because there are too many blank lines. For example, #81 to #85 are blank, which are unnecessary.
+  google.auth.exceptions.DefaultCredentialsError: Could not automatically determine credentials. 
+  Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credential and re-run the application. 
+  For more information, please see https://developers.google.com/accounts/docs/application-default-credentials.
 
-3.Performance
-This program is able to download images from Twitter, get the images' description and generate two videos for the jpg and png files.
+  The reason is she didn't figure out the path of the json file which is for certification. 
+  So I added 'os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/usr/local/lib/googlecloudsdk/cert.json"' in the line #87 
+  and her code was able to run without error.
+  Maybe this issue only happen in certain operating systems but if the certification file's path is defined in the code, 
+  it will save my time to debug.
+
+Performance:
+  This program is able to download images from Twitter, get the images' description and generate two videos for the jpg and 
+  png files.
