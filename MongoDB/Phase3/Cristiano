@@ -1,0 +1,125 @@
+{
+    "Account": "Cristiano",
+    "Pictures": [
+        {
+            "0": [
+                "player",
+                "sport venue",
+                "football player",
+                "soccer player",
+                "team sport",
+                "sports",
+                "team",
+                "games",
+                "tournament",
+                "grass"
+            ]
+        },
+        {
+            "1": [
+                "player",
+                "football player",
+                "soccer player",
+                "athlete",
+                "jersey",
+                "competition",
+                "muscle",
+                "forward",
+                "team sport",
+                "sportswear"
+            ]
+        },
+        {
+            "2": [
+                "suit",
+                "businessperson",
+                "formal wear",
+                "profession",
+                "professional",
+                "entrepreneur",
+                "public relations"
+            ]
+        },
+        {
+            "3": [
+                "person",
+                "product",
+                "photography",
+                "selfie",
+                "socialite",
+                "smile",
+                "fun"
+            ]
+        },
+        {
+            "4": [
+                "man",
+                "undergarment",
+                "body man",
+                "briefs",
+                "barechestedness",
+                "model",
+                "bodybuilder",
+                "male",
+                "abdomen",
+                "muscle"
+            ]
+        },
+        {
+            "5": [
+                "photograph",
+                "shoulder",
+                "standing",
+                "muscle",
+                "neck",
+                "window",
+                "floor",
+                "girl"
+            ]
+        },
+        {
+            "6": [
+                "collage",
+                "professional"
+            ]
+        },
+        {
+            "7": [
+                "standing",
+                "shoulder",
+                "sitting",
+                "muscle",
+                "joint",
+                "barechestedness",
+                "dancer",
+                "neck",
+                "physical fitness",
+                "model"
+            ]
+        },
+        {
+            "8": [
+                "soccer player",
+                "competition event",
+                "championship",
+                "trophy",
+                "player",
+                "football player"
+            ]
+        },
+        {
+            "9": [
+                "denim",
+                "jeans",
+                "footwear",
+                "standing",
+                "infrastructure",
+                "snapshot",
+                "jacket",
+                "fashion",
+                "road",
+                "outerwear"
+            ]
+        }
+    ]
+}

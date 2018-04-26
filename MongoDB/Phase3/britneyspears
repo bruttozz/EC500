@@ -1,0 +1,140 @@
+{
+    "Account": "britneyspears",
+    "Pictures": [
+        {
+            "0": [
+                "entertainment",
+                "stage",
+                "performance",
+                "purple",
+                "performing arts",
+                "performance art",
+                "dancer",
+                "concert",
+                "event",
+                "club"
+            ]
+        },
+        {
+            "1": [
+                "clothing",
+                "fashion model",
+                "joint",
+                "fashion illustration",
+                "abdomen",
+                "girl",
+                "top",
+                "shoe",
+                "illustration",
+                "trunk"
+            ]
+        },
+        {
+            "2": [
+                "sitting",
+                "girl",
+                "black hair",
+                "darkness",
+                "human",
+                "mouth",
+                "arm",
+                "midnight"
+            ]
+        },
+        {
+            "3": [
+                "finger",
+                "nail",
+                "hand",
+                "nail care",
+                "nail polish",
+                "manicure",
+                "hand model"
+            ]
+        },
+        {
+            "4": [
+                "hair",
+                "eyewear",
+                "blond",
+                "glasses",
+                "human hair color",
+                "vision care",
+                "hairstyle",
+                "hair coloring",
+                "long hair",
+                "lip"
+            ]
+        },
+        {
+            "5": [
+                "social group",
+                "physical fitness",
+                "sport venue",
+                "youth",
+                "team",
+                "performance",
+                "sports",
+                "competition",
+                "fun",
+                "leisure"
+            ]
+        },
+        {
+            "6": [
+                "beauty",
+                "human hair color",
+                "blond",
+                "album cover",
+                "advertising",
+                "long hair",
+                "girl",
+                "hair coloring",
+                "brown hair",
+                "photo shoot"
+            ]
+        },
+        {
+            "7": [
+                "hair",
+                "blond",
+                "eyebrow",
+                "human hair color",
+                "hairstyle",
+                "forehead",
+                "chin",
+                "selfie",
+                "socialite",
+                "long hair"
+            ]
+        },
+        {
+            "8": [
+                "fashion accessory",
+                "fun",
+                "product",
+                "smile",
+                "interaction",
+                "arm",
+                "hand",
+                "finger",
+                "socialite",
+                "girl"
+            ]
+        },
+        {
+            "9": [
+                "hair",
+                "face",
+                "blond",
+                "facial expression",
+                "human hair color",
+                "eyebrow",
+                "smile",
+                "beauty",
+                "nose",
+                "head"
+            ]
+        }
+    ]
+}

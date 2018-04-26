@@ -1,0 +1,144 @@
+{
+    "Account": "NBA",
+    "Pictures": [
+        {
+            "0": [
+                "footwear",
+                "yellow",
+                "shoe",
+                "sneakers",
+                "fashion accessory",
+                "outdoor shoe",
+                "product design",
+                "floor",
+                "personal protective equipment",
+                "boot"
+            ]
+        },
+        {
+            "1": [
+                "sport venue",
+                "basketball moves",
+                "games",
+                "basketball player",
+                "basketball",
+                "sports",
+                "player",
+                "competition",
+                "arena",
+                "basketball court"
+            ]
+        },
+        {
+            "2": [
+                "footwear",
+                "games",
+                "sport venue",
+                "sports",
+                "basketball moves",
+                "shoe",
+                "basketball",
+                "competition",
+                "joint",
+                "competition event"
+            ]
+        },
+        {
+            "3": [
+                "sport venue",
+                "basketball moves",
+                "basketball player",
+                "games",
+                "arena",
+                "basketball court",
+                "basketball",
+                "structure",
+                "player",
+                "audience"
+            ]
+        },
+        {
+            "4": [
+                "black",
+                "darkness",
+                "text",
+                "display device",
+                "light",
+                "technology",
+                "entertainment",
+                "phenomenon",
+                "multimedia",
+                "performance"
+            ]
+        },
+        {
+            "5": [
+                "basketball moves",
+                "sport venue",
+                "games",
+                "basketball player",
+                "audience",
+                "sports",
+                "basketball",
+                "team sport",
+                "product",
+                "crowd"
+            ]
+        },
+        {
+            "6": [
+                "white",
+                "text",
+                "font",
+                "product",
+                "line",
+                "design",
+                "computer wallpaper",
+                "product design",
+                "sky",
+                "graphic design"
+            ]
+        },
+        {
+            "7": [
+                "sport venue",
+                "crowd",
+                "wrestler",
+                "audience",
+                "competition event",
+                "championship",
+                "event",
+                "sports",
+                "basketball moves"
+            ]
+        },
+        {
+            "8": [
+                "sport venue",
+                "basketball player",
+                "basketball moves",
+                "player",
+                "basketball",
+                "games",
+                "sports",
+                "basketball court",
+                "team sport",
+                "arena"
+            ]
+        },
+        {
+            "9": [
+                "sport venue",
+                "basketball moves",
+                "basketball player",
+                "contact sport",
+                "games",
+                "sports",
+                "basketball court",
+                "greco roman wrestling",
+                "player",
+                "competition event"
+            ]
+        }
+    ]
+}

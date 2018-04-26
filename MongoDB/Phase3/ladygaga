@@ -1,0 +1,130 @@
+{
+    "Account": "ladygaga",
+    "Pictures": [
+        {
+            "0": [
+                "eyebrow",
+                "lip",
+                "blond",
+                "human hair color",
+                "cheek",
+                "nose",
+                "selfie",
+                "chin",
+                "forehead",
+                "purple"
+            ]
+        },
+        {
+            "1": [
+                "lip",
+                "face",
+                "cheek",
+                "skin",
+                "chin",
+                "eyebrow",
+                "nose",
+                "close up",
+                "jaw",
+                "eyelash"
+            ]
+        },
+        {
+            "2": [
+                "eyewear",
+                "purple",
+                "vision care",
+                "glasses",
+                "hair coloring",
+                "hair accessory"
+            ]
+        },
+        {
+            "3": [
+                "social group",
+                "fashion",
+                "fun",
+                "event",
+                "socialite",
+                "product",
+                "girl",
+                "party"
+            ]
+        },
+        {
+            "4": [
+                "music artist",
+                "performance",
+                "entertainment",
+                "stage",
+                "fashion",
+                "duet",
+                "event",
+                "singer",
+                "product",
+                "singing"
+            ]
+        },
+        {
+            "5": [
+                "flooring",
+                "carpet",
+                "formal wear",
+                "fashion model",
+                "fashion",
+                "red carpet",
+                "suit",
+                "tv personality",
+                "socialite",
+                "supermodel"
+            ]
+        },
+        {
+            "6": [
+                "art",
+                "design",
+                "exhibition",
+                "font"
+            ]
+        },
+        {
+            "7": [
+                "fashion model",
+                "clothing",
+                "human hair color",
+                "beauty",
+                "dress",
+                "model",
+                "lady",
+                "supermodel",
+                "shoulder",
+                "cocktail dress"
+            ]
+        },
+        {
+            "8": [
+                "leg",
+                "flooring",
+                "joint",
+                "carpet",
+                "horse like mammal",
+                "shoe",
+                "girl",
+                "horse",
+                "product"
+            ]
+        },
+        {
+            "9": [
+                "human hair color",
+                "shoulder",
+                "girl",
+                "black hair",
+                "long hair",
+                "brown hair",
+                "joint",
+                "neck"
+            ]
+        }
+    ]
+}
