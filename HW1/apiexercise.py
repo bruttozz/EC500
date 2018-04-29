@@ -1,15 +1,15 @@
-import tweepy
+import tweepy 
 import json
 import ffmpeg
 import wget
 import urllib.request
 import io
 import os
+import subprocess
 import sys
 import glob
-
 from PIL import Image
-
+# Imports the Google Cloud client library
 from google.cloud import vision
 from google.cloud.vision import types
 
@@ -19,21 +19,22 @@ consumer_secret = 'PbmHcqAHpoAF5NqT4MjdhLCKOQXdXRYt6v6IFltypENsInrGsd'
 access_key = '920695116150525953-Uf1blZlllGja7CDAHPQrVD5ZriAZNMb'
 access_secret = 'u0WN80vQtLhxT1JfOCd4GU7fXBTolwfxkzzyl1kxlPtF6'
 
-# Reference:
-    # https://miguelmalvarez.com/2015/03/03/download-the-pictures-from-a-twitter-feed-using-python/
-def getimg(account):
+
+def get_func():
     # authorize twitter, initialize tweepy
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth)
+    screen_name = "NBA" # You can change the twitter account name here
+    Image_Number = 4 # Define the number of images to download
     # Get the tweets from a user up to 200
-    tweets = api.user_timeline(account = account,
+    tweets = api.user_timeline(screen_name = screen_name,
                                count = 200, include_rts = False,
                                exclude_replies = True)
 
     last_id = tweets[-1].id
     while (True):
-        more_tweets = api.user_timeline(account = account,
+        more_tweets = api.user_timeline(screen_name = screen_name,
                                        count = 200,
                                        include_rts = False,
                                        exclude_replies = True,
@@ -57,22 +58,22 @@ def getimg(account):
         print("User current doesn't have any picture.")
         sys.exit()
 
+
     # Download at most Image_Number images
     count = 0
 
-    f = open('pictures_urls.txt', 'w')
     for media_file in media_files:
         wget.download(media_file,'image'+str(count)+media_file[-4:])
-        f.write(media_file)
         count += 1
         if count == Image_Number:
             break
 
-def description():
     # Specify the path of credential file
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/usr/local/lib/googlecloudsdk/EC500hw1-70f8d0b192a0.json"
     vision_client = vision.ImageAnnotatorClient()
-    path = glob.glob("/Users/brutto/Desktop/500/*.jpg") + glob.glob("/Users/brutto/Desktop/500/*.png")
+
+    #You need to change the following path to where this python code is stored
+    path = glob.glob("/Users/brutto/Desktop/500/website/*.jpg") + glob.glob("/Users/brutto/Desktop/500/website/*.png")
     f = open('discription.txt', 'w') #prepare to write this file
     for file in path:
         with io.open(file,'rb') as image_file:
@@ -86,10 +87,7 @@ def description():
             f.write(label.description+"\n")
     f.close() #finish writing the description file
 
-if __name__ == '__main__':
-    account = input("Please Enter a Twitter Account Name")
-    Image_Number = input("Please Enter How Many Pictures You Want to Display ")
-    getimg(account)
-    description()
     os.system("cat *.jpg | ffmpeg -f image2pipe -framerate .5 -i - -vf 'crop=in_w-1:in_h' -vcodec libx264 output.mp4")
-    print("Finished!")
+
+if __name__ == '__main__':
+    get_func()
